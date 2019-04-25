@@ -1,0 +1,523 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+.fix { overflow: hidden }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+html,
+body { height: 100% }
+
+html{
+    scroll-behavior: smooth;
+}
+.test {font-family: 'Lato', sans-serif;}
+a {
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    color: #333;
+}
+a:hover { text-decoration: none }
+
+.logo h1{
+        font-family: adine;
+}
+.header{
+    color: #fff;
+    padding-top: 30px; 
+}
+
+.nav{
+    float: right;
+}
+.nav li{
+    font-size: 17px;
+    padding: 10px 24px;
+    float: left;
+    list-style: none;
+   
+}
+
+.nav li a:hover{
+    color: yellow;
+   
+}
+.nav li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.welcome-area, .banner-area, .banner, .text-area{
+    height: 100%;
+}
+
+.welcome-area{
+    opacity: .8;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: cover;
+    background-image: url(img/bannar.jpg);
+}
+
+.text-area h1{
+    color: #ffff;
+    font-family: cursive; 
+}
+.text-area{
+        display: table;
+        width: 100%;
+}
+.text-tblcell{
+       text-align: center;
+        vertical-align: middle;
+        display: table-cell;
+
+}
+
+.section-text h1{
+    animation-name: colorchange;
+    animation-duration: 3s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+     animation-delay: 2s;
+    height: 0px;
+    width: 350px;
+
+    font-size: 20px;
+    -webkit-animation-name: colorchange;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-out;
+    -webkit-animation-direction: reverse;
+     -webkit-animation-delay: 2s;
+  
+
+
+
+}
+@keyframes colorchange{
+        from{width: 100%;}
+         to{height: 0px;}
+
+}
+@-webkit-keyframes colorchange{
+        from{width: 100%;}
+         to{height: 0px;}
+
+}
+.text-area p{
+    font-family: cursive;
+    font-weight: 700;
+    color: #f9f9f9;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.btn {
+   margin-top: 20px;
+}
+.btn a{
+        text-decoration: none;
+    color: #ffff;
+    padding: 20px 30px;
+    border: 1px solid;
+}
+
+.btn a:hover{
+    transition: 1s;
+        background-color: #89729E;
+}
+
+.section-text{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.section-text h2{
+    font-family: adine;
+    color: #f3ce11;
+    font-size: 75px;
+}
+.section-text h1{
+    font-family: cursive;
+}
+
+.info {
+   
+    border-radius: 10px;
+    padding: 2px 5px;
+    border: 2px solid gray;
+   
+   
+}
+
+.info:hover {
+
+    transition: 2s;
+    transform: scale(1.1);
+   
+   
+}
+.info h2{
+    font-size: 28px;
+    font-family: adine;
+    margin-top: 10px;
+}
+.info h5{
+    font-weight: 200;
+    font-size: 12px;
+    font-family: inherit;
+    margin-top: -10px;
+}
+
+.info img{
+    border: 4px solid #e8df09;
+    width: 150px;
+    border-radius: 100%;
+}
+
+.imge img:hover{
+    transition: 2s;
+    transform: scale(1.1);
+}
+
+
+
+
+.menu-section ul li{
+    padding: 10px 20px;
+    float: left;
+    list-style: none;
+}
+.imge img{
+    border-radius: 5%;
+}
+.menu-section ul li:hover{
+    
+    transition: 1s;
+    border-radius: 10px 0px 10px 0px;
+   background-color: #1abc9c;
+}
+.menu-section ul li a:hover{
+   color: #fff;
+}
+.menu-section ul li a{
+    text-decoration: none;
+}
+
+.imge-area:hover{
+    transition: 2s;
+    transform: scale(1.05);
+}
+.imge-area img{
+    border-radius: 7%;
+    height: 300px;
+    width: 100%;
+}
+.food-text{
+    padding-top: 10px; 
+}
+.food-text h5, h6{
+    float: left;
+}
+.food-text h5{
+    font-weight: 500;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+.food-text h6{
+
+   margin-left: 81px;
+    font-size: 19px;
+    color: gray;
+    text-decoration: line-through;
+}
+.food-text a{
+    color: #e65528;
+    font-weight: 900;
+    font-size: 16px;
+  text-decoration:underline;
+    float: right;
+}
+.food-iteam{
+    margin-top: 50px;
+}
+.services-area{
+    margin-bottom: 50px;
+}
+.service-section{
+    height: 250px; 
+    box-shadow: -1px -1px 23px 3px #a29c9b;
+}
+.service-text{}
+.service-text h4{
+    padding-top: 23px;
+        font-family: adine;
+    color: #fda602;
+    font-size: 46px;
+}
+.service-text p{
+    margin-top: -32px;
+    color: darkgray;
+  
+    padding: 20px 46px;
+}
+.service-text a{
+
+    font-size: 15px;
+    
+    padding: 16px 36px;
+    border: 1px solid coral;
+    border-radius: 5%;
+    font-family: initial;
+}
+
+
+.service-img img{
+    box-shadow: -1px -1px 23px 3px #a29c9b;
+    width: 100%;
+    height: 250px;
+}
+
+.service-section:hover{
+    transition: 2s;
+    transform: scale(1.05);
+}
+
+.service-img img:hover{
+    transition: 2s;
+    transform: scale(1.05);
+}
+
+.rating-img img{
+    border-radius: 7%;
+    height: 300px;
+    width: 70%;
+    float: right;
+}
+.rating-img img:hover{
+    transition: 2s;
+    transform: scale(1.05);
+}
+.icon-text:hover{
+    transition: 2s;
+    transform: scale(1.3);
+}
+.icon-text a i{
+    font-size: 75px;
+    color: #fdb01f;
+}
+
+.icon-text h1{
+    font-family: cursive;
+    color: #ffab0d;
+}
+.margin-top{
+    margin-top: 10%;
+}
+.rating-cover,  .rating{
+    height: 70%;
+}
+.rating-cover{
+    height: 70%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-image: url(img/bannar-1.jpg);
+}
+.rating-text h1{
+    color: #fff;
+    font-size: 30px;
+    font-family: cursive;
+    word-spacing: -6px;
+}
+.icon-text i{
+    color: #fbeb0e;
+    font-size: 62px;
+}
+.icon-text p{
+    font-family: cursive;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 3;
+}
+
+.chef-img{
+
+        border: 2px solid #de9700;
+}
+.chef-img:hover{
+    transform: scale(1.05);
+    transition: 2s;
+     
+}
+
+.chef-img img{
+
+       height: 300px;
+}
+.chef-info{
+    padding: 15px 0px;
+    background-color: #fbda05;
+}
+.chef-info h1{
+    font-size: 30px;
+    color: #ff6c00;
+    font-family: cursive;
+   
+}
+.chef-info p{
+    color: #fff;
+}
+.padding-text{
+    padding-left: 20px;
+}
+
+.padding-text p{
+   padding-left: 10px;
+}
+
+.location {
+    padding: 50px;
+    box-shadow: 1px 2px 7px 1px #a9a8a8;
+}
+.location {}
+.location  i{
+   color: #ffca00;
+    font-size: 29px;
+    float: right;
+}
+.location  h5{
+    display: table-row;
+    font-size: 23px;
+    font-family: cursive;
+}
+.location p{
+    color: black;
+}
+.location-section{
+    margin-bottom: 30px;
+}
+
+
+
+.contact-area{
+    background-attachment: fixed;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(img/contact.jpg);
+}
+
+.contact-section{
+    margin-top: -50px;
+}
+
+.contact-section h1, p{
+    color: #fff;
+}
+
+input:focus{
+    font-weight: 700;
+    color: red;
+}
+::placeholder{
+    font-weight: 900;
+    font-size: 15px;
+    color: #16a085;
+}
+.from-area input[type="name"], input[type="email"], input[type="subject"]{
+    padding: 8px;
+    background: none;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 20px;
+}
+.from-area textarea[type="text"]{
+    padding: 8px;
+    height: 150px;
+    background: none;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 20px;
+}
+.btn p{
+    border: none;
+    padding: 10px 20px;
+   border:1px solid red;
+    color: #fff;
+    font-size: 20px;
+   
+    
+}
+
+.foter-section{
+    height:80%;
+    background-color: #FEB914;
+}
+
+.foter-text{}
+.foter-text h2{
+    color: #fff;
+    font-family: adine;
+    font-size: 80px;
+    margin-top: 10%;
+}
+.foter-text p{
+    color: black;
+}
+.foter-text h4{
+    color: #ff690e;;
+    font-size: 15px;
+}
+.font-icon{}
+.font-icon i{
+    color: #fff;
+    border: 1px solid white;
+    padding: 10px 10px;
+    background-color: #ff7300;
+    border-radius: 100%;
+    font-size: 23px;
+}
+
+.copy-right{
+    background-color: black;
+}
+.copy p{
+    padding: 10px;
+}
+.copy span{
+    color: #FEB914;
+    padding: 10px;
+}
+
+
