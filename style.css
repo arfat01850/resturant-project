@@ -76,7 +76,7 @@ a:hover { text-decoration: none }
     float: left;
     font-weight: bold;
 }*/
-.nav
+/*.nav
 {
     float: right;
 }
@@ -149,8 +149,8 @@ header nav ul li a:hover,
         border-bottom: 1px solid rgba(0,0,0,.2); 
     }
 }
-
-/*.header{
+*/
+.header{
     padding: 14px;
     position: fixed;
     background-color: #484f3e;
@@ -175,7 +175,7 @@ header nav ul li a:hover,
     padding: 10px 16px;
     text-transform: uppercase;
 }
-*/
+
 
 
 .welcome-area, .banner-area, .banner, .text-area{
@@ -183,7 +183,7 @@ header nav ul li a:hover,
 }
 
 .welcome-area{
-   
+
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
