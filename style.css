@@ -42,90 +42,101 @@ a {
 }
 a:hover { text-decoration: none }
 
-.logo p{
+/*.logo p{
        font-style: italic;
     margin-bottom: -7.5px;
     font-size: 15px;
     font-family: adine;
     font-weight: 900;
 }
+*/
 
 
-
-
-
-
-
-
-.header-section
-{
-    position: absolute;
+.header
+{   
+     height: 52px;
+    position: fixed;
+    background-color: #484f3e;
+    color: #fff;
+    width: 100%;
+    z-index: 1;
     top: 0;
     left: 0;
-    padding: 0 100px;
-    background: #262626;
+    
+    background: #484f3e;
     width: 100%;
     box-sizing: border-box;
 }
-/*header .logo
-{
-    color: #fff;
-    height: 50px;
-    line-height: 50px;
-    font-size: 24px;
-    float: left;
-    font-weight: bold;
-}*/
-/*.nav
-{
+
+.logo a{
+    text-decoration: none;
+}
+.logo a p{
+    margin-top: 15px;
+    margin-left: 30px;
+    font-style: italic;
+    margin-bottom: -27.5px;
+    font-size: 15px;
+    font-family: adine;
+    font-weight: 900;
+    color: #ffff;
+    }
+     
+.nav
+{   
+    
     float: right;
 }
-header nav ul
+.nav ul
 {
     margin: 0;
     padding: 0;
     display: flex;
 }
-header nav ul li
+.nav ul li
 {
     list-style: none;
+    display: inline-block;
+    margin-left: 3px;
 }
-header nav ul li a
+.nav ul li a
 {
-    height: 50px;
-    line-height: 50px;
-    padding: 0 20px;
+
+    font-size: 10px;
     color: #fff;
+    padding: 10px 16px;
+    text-transform: uppercase;
     text-decoration: none;
     display: block;
 }
-header nav ul li a:hover,
- header nav ul li a.active 
+.nav ul li a:hover,
+ .nav ul li a.active 
 {
     color: #fff;
     background: #2196f3;
 }
 .menu-toggle 
 {
+    
     color: #fff;
     float: right;
-    line-height: 50px;
-    font-size: 24px;
+    line-height: 35px;
+    font-size: 20px;
     cursor: pointer;
     display: none;
 }
-
 @media (max-width: 991px)
 {
-    header
+    .header
     {
-        padding: 0 20px;
+     height: 52px;
+    padding: 0px 39px 0px 0px;
     }
     .menu-toggle 
     {
     display: block; 
     }
-    header nav 
+    .nav 
     {   
         position: absolute;
         width: 100%;
@@ -135,22 +146,30 @@ header nav ul li a:hover,
         left: -100%;
         transition: 0.5s;
     }
-    header nav.active
+    .nav ul li{
+        width: 100%;
+    }
+    .nav.active
     {
+
         left: 0; 
     }
-    header nav ul 
+    .nav ul 
     {
         display: block;
         text-align: center;
     }
-    header nav ul li a
+    .nav ul li a
     {
         border-bottom: 1px solid rgba(0,0,0,.2); 
     }
 }
-*/
-.header{
+
+
+
+
+
+/*.header{
     padding: 14px;
     position: fixed;
     background-color: #484f3e;
@@ -175,7 +194,7 @@ header nav ul li a:hover,
     padding: 10px 16px;
     text-transform: uppercase;
 }
-
+*/
 
 
 .welcome-area, .banner-area, .banner, .text-area{
